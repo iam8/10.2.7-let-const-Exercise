@@ -1,0 +1,16 @@
+Ioana Alex Mititean
+10/13/22
+Exercise 10.2.7: let and const
+
+QUIZ
+> The difference between var and let:
+    - Unlike var, declaring a variable with let will not set or overwrite a property to the window object.
+    - Unlike var, a variable declared with let will be block scoped, not simply function scoped.
+    - Unlike var, a variable declared with let cannot be redeclared.
+> The difference between var and const:
+    - Unlike var, declaring a variable with const will not set or overwrite a property to the window object.
+    - Unlike var, a variable declared with const will be block scoped, not simply function scoped.
+    - Unlike var, a variable declared with const cannot be reassigned nor redeclared.
+> The difference between let and const:
+    - Unlike let, variables declared with const cannot be reassigned.
+> Hoisting means that variables in a script are 'hoisted' to the top of the script - the JS compiler gives the variables declarations, but not initializations, at the top of the script. This allows the variable to be used and accessed before it is initialized (given a value).
